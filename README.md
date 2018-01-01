@@ -16,6 +16,7 @@ The following distributions are (or will be) implemented in this repository:
 - Cauchy Distribution
 - F Distribtution
 - Gamma Distribution
+- Geometric Distribution
 - [Normal Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/Normal%20Distribution.ipynb)
 - Poisson Distribution
 - T Distribution
