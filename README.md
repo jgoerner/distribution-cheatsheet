@@ -18,5 +18,5 @@ The following distributions are (or will be) implemented in this repository:
 - Gamma Distribution
 - Geometric Distribution
 - [Normal Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/Normal%20Distribution.ipynb)
-- Poisson Distribution
+- [Poisson Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/Poisson%20Distribution.ipynb)
 - T Distribution
