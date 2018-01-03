@@ -12,11 +12,11 @@ The characteristics of each distribution are seperated into the following paragr
 ## Overview
 The following distributions are (or will be) implemented in this repository:
 - Beta Distribution
-- Binomial Distribution
+- [Binomial Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Binomial%20Distribution.ipynb)
 - Cauchy Distribution
 - F Distribtution
 - Gamma Distribution
 - Geometric Distribution
-- [Normal Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/Normal%20Distribution.ipynb)
-- [Poisson Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/Poisson%20Distribution.ipynb)
+- [Normal Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Normal%20Distribution.ipynb)
+- [Poisson Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Poisson%20Distribution.ipynb)
 - T Distribution
