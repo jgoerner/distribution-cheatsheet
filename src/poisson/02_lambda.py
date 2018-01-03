@@ -33,23 +33,23 @@ plt.plot(np.arange(20),
 
 # PDF LAM = 5
 plt.scatter(np.arange(20),
-            (stats.poisson.pmf(np.arange(20), mu=5)),#/np.max(stats.poisson.pmf(np.arange(20), mu=5))),
+            (stats.poisson.pmf(np.arange(20), mu=5)),
             alpha=0.75,
             s=100
        )
 plt.plot(np.arange(20),
-         (stats.poisson.pmf(np.arange(20), mu=5)),#/np.max(stats.poisson.pmf(np.arange(20), mu=5))),
+         (stats.poisson.pmf(np.arange(20), mu=5)),
          alpha=0.75,
         )
 
 # PDF LAM = 10
 plt.scatter(np.arange(20),
-            (stats.poisson.pmf(np.arange(20), mu=10)),#/np.max(stats.poisson.pmf(np.arange(20), mu=10))),
+            (stats.poisson.pmf(np.arange(20), mu=10)),
             alpha=0.75,
             s=100
        )
 plt.plot(np.arange(20),
-         (stats.poisson.pmf(np.arange(20), mu=10)),#/np.max(stats.poisson.pmf(np.arange(20), mu=10))),
+         (stats.poisson.pmf(np.arange(20), mu=10)),
          alpha=0.75,
         )
 

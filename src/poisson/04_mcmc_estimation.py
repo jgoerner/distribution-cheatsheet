@@ -60,7 +60,7 @@ plt.tick_params(axis = 'both', which = 'major', labelsize = 18)
 plt.axhline(y = 0.0009, color = 'black', linewidth = 1.3, alpha = .7)
 
 # TITLE, SUBTITLE & FOOTER
-plt.text(x = -2.5, y = 0.19, s = "Poisson Distribution - Parameter Estimation",
+plt.text(x = -2.5, y = 0.19, s = "Poisson Distribution - Parameter Estimation (MCMC)",
                fontsize = 26, weight = 'bold', alpha = .75)
 plt.text(x = -2.5, y = 0.17, 
          s = 'Depicted below is the distribution of a sample (blue) drawn from a Poisson distribution with $\lambda = 7$.\nAlso the estimated distrubution with $\lambda \sim {:.3f}$ is shown (yellow).'.format(np.mean(lambdas)),
