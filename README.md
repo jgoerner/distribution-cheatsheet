@@ -11,7 +11,7 @@ The characteristics of each distribution are seperated into the following paragr
 
 ## Overview
 The following distributions are (or will be) implemented in this repository:
-- Beta Distribution
+- [Beta Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Beta%20Distribution.ipynb)
 - [Binomial Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Binomial%20Distribution.ipynb)
 - Cauchy Distribution
 - F Distribtution
