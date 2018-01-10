@@ -66,14 +66,14 @@ plt.text(x=-1.5, y=.1, s="estimated distribution", rotation=0, alpha=.75, weight
 
 # TICKS
 plt.tick_params(axis = 'both', which = 'major', labelsize = 18)
-plt.axhline(y = 0, color = 'black', linewidth = 1.3, alpha = .7)
+plt.axhline(y = 0.001, color = 'black', linewidth = 1.3, alpha = .7)
 
 # TITLE, SUBTITLE & FOOTER
-plt.text(x = -15, y = 0.3, s = "Cauchy - Parameter Estimation (MCMC)",
+plt.text(x = -15, y = 0.255, s = "Cauchy - Parameter Estimation (MCMC)",
                fontsize = 26, weight = 'bold', alpha = .75)
-plt.text(x = -15, y = 0.25,
-         s = 'Depicted below is the distribution of a sample (blue) drawn from a cauchy distribution with' + r'$x_0 = 10$' + '\nand ' + r'$\lambda = 1.5$ (red).' + r'Also the estimated distrubution with $x_0 \sim {:.3f} $ and $\lambda \sim {:.3f} $ is shown (yellow).'.format(np.mean(x_0s), np.mean(lambds)),
+plt.text(x = -15, y = 0.225,
+         s = 'Depicted below is the distribution of a sample (blue) drawn from a cauchy distribution with ' + r'$x_0 = 10$' + '\nand ' + r'$\lambda = 1.5$ (red). ' + r'Also the estimated distrubution with $x_0 \sim {:.3f} $ and $\lambda \sim {:.3f} $ is shown (yellow).'.format(np.mean(x_0s), np.mean(lambds)),
          fontsize = 19, alpha = .85)
 plt.text(x = -15,y = -0.025,
-         s = 'Hagen Mohr for ©Joshua Görner                                                                                                                                                   github.com/jgoerner   ',
+         s = '   © Hagen Mohr                                                                                                                                                     github.com/jgoerner   ',
          fontsize = 14, color = '#f0f0f0', backgroundcolor = 'grey');

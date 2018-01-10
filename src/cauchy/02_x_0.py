@@ -48,9 +48,9 @@ plt.fill_between(np.linspace(-6, 6, 100),
                 )
 
 # LEGEND
-plt.text(x=-1, y=.35, s="$ x_0 = 0$", rotation=65, alpha=.75, weight="bold", color="#008fd5")
-plt.text(x=1, y=.35, s="$ x_0 = 2$", rotation=65, alpha=.75, weight="bold", color="#fc4f30")
-plt.text(x=-3, y=.35, s="$ x_0 = -2$", rotation=65, alpha=.75, weight="bold", color="#e5ae38")
+plt.text(x=-1, y=.25, s="$ x_0 = 0$", rotation=70, alpha=.75, weight="bold", color="#008fd5")
+plt.text(x=1, y=.25, s="$ x_0 = 2$", rotation=70, alpha=.75, weight="bold", color="#fc4f30")
+plt.text(x=-3.125, y=.25, s="$ x_0 = -2$", rotation=70, alpha=.75, weight="bold", color="#e5ae38")
 
 
 # TICKS
@@ -58,11 +58,11 @@ plt.tick_params(axis = 'both', which = 'major', labelsize = 18)
 plt.axhline(y = 0, color = 'black', linewidth = 1.3, alpha = .7)
 
 # TITLE, SUBTITLE & FOOTER
-plt.text(x = -7, y = 0.46, s = "Cauchy Distribution - $ x_0 $",
+plt.text(x = -7.25, y = 0.395, s = "Cauchy Distribution - $ x_0 $",
                fontsize = 26, weight = 'bold', alpha = .75)
-plt.text(x = -7, y = 0.40,
-         s = 'Depicted below are three normally distributed random variables with varying $ x_0 $. As one can easily\nsee the parameter $x_0$ shifts the distribution along the x-axis.',
+plt.text(x = -7.25, y = 0.35,
+         s = 'Depicted below are three Cauchy distributed random variables with varying $ x_0 $. As one can \neasily see the parameter $x_0$ shifts the distribution along the x-axis.',
          fontsize = 19, alpha = .85)
-plt.text(x = -7,y = -0.075,
-         s = '© Hagen Mohr for Joshua Görner                                                                                                                                                 github.com/jgoerner   ',
+plt.text(x = -7.25,y = -0.05,
+         s = '   © Hagen Mohr                                                                                                                                               github.com/jgoerner   ',
          fontsize = 14, color = '#f0f0f0', backgroundcolor = 'grey');

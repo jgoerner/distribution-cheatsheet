@@ -58,13 +58,13 @@ plt.tick_params(axis = 'both', which = 'major', labelsize = 18)
 plt.axhline(y = 0, color = 'black', linewidth = 1.3, alpha = .7)
 
 # TITLE, SUBTITLE & FOOTER
-plt.text(x = -7, y = 0.8, s = "Cauchy Distribution - $ \lambda $",
+plt.text(x = -7.25, y = 0.77, s = "Cauchy Distribution - $ \lambda $",
                fontsize = 26, weight = 'bold', alpha = .75)
-plt.text(x = -7, y = 0.69,
-         s = ("Depicted below are three cauchy distributed random variables with varying $\lambda$. \n"
-             "It becomes apparent, that $\lambda$ streches or tightens the distribution"
-             " (The smaller $\lambda$ the higher the peak)"),
+plt.text(x = -7.25, y = 0.68,
+         s = ("Depicted below are three Cauchy distributed random variables with varying $\lambda$. " +
+             "It becomes \napparent, that $\lambda$ streches or tightens the distribution" +
+             " (the smaller $\lambda$ the higher the peak)"),
          fontsize = 19, alpha = .85)
-plt.text(x = -7,y = -0.15,
-         s = '© Hagen Mohr for Joshua Görner                                                                                                                                                 github.com/jgoerner   ',
+plt.text(x = -7.25,y = -0.1,
+         s = '   © Hagen Mohr                                                                                                                                               github.com/jgoerner   ',
          fontsize = 14, color = '#f0f0f0', backgroundcolor = 'grey');
