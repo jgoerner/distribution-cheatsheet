@@ -13,7 +13,8 @@ The characteristics of each distribution are seperated into the following paragr
 The following distributions are (or will be) implemented in this repository:
 - [Beta Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Beta%20Distribution.ipynb)
 - [Binomial Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Binomial%20Distribution.ipynb)
-- Cauchy Distribution
+- [Cauchy Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Cauchy%20Distribution.ipynb)
+- [Chi-Squared Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Chi-Squared%20Distribution.ipynb)
 - F Distribtution
 - Gamma Distribution
 - [Geometric Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Geometric%20Distribution.ipynb)
