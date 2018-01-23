@@ -18,7 +18,7 @@ The following distributions are (or will be) implemented in this repository:
 - F Distribtution
 - Gamma Distribution
 - [Geometric Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Geometric%20Distribution.ipynb)
-- Hypergeometric Distribution
+- [Hypergeometric Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Hypergeometric%20Distribution.ipynb)
 - [Normal Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Normal%20Distribution.ipynb)
 - [Poisson Distribution](https://github.com/jgoerner/distribution-cheatsheet/blob/master/notebooks/Poisson%20Distribution.ipynb)
 - T Distribution
